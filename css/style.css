@@ -131,6 +131,64 @@ h3 {
     font-size: 18px;
     line-height: 32px;
     border: 1px solid #688800;
-border-radius: 50px;
-padding: 8px 48px;
+    border-radius: 50px;
+    padding: 8px 48px;
 }
+
+.div_butt_buy {
+    display: flex;
+    flex-direction: row;
+    margin-left: 970px;
+    margin-top: 32px;
+}
+
+#second_button_buy {
+    margin-left: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--green);
+}
+
+
+/* тлф ВЕРСИЯ */
+@media screen and (max-width: 600px) {
+    .header_urls {
+        display: none;
+    }
+
+    #logo_img {
+        width: 36.69px;
+        height: 80.21px;
+        padding-left: 20px;
+        padding-top: 8.3px;
+    }
+
+    #small_el {
+        position: absolute;
+        width: 240px;
+        height: 240px;
+        left: 40px;
+        top: 157px;
+    }
+
+    #big_el {
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        left: 20px;
+        top: 138px;
+    }
+    #jarofoil {
+        position: absolute;
+left: 103.4px;
+top: 111.97px;
+width: 70.54px;
+height: 305.75px;
+transform: matrix(0.98, 0.17, -0.17, 0.98, 0, 0);
+    }
+}
+
+/* ДЛЯ компа */
+@media screen and (min-width: 600px) {}
