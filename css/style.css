@@ -26,6 +26,10 @@ header {
 
 .header_info {
     padding-right: 88px;
+    font-family: 'El Messiri';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
 
 #logo_img {
@@ -72,6 +76,19 @@ h1 {
     line-height: 125%;
     margin-top: 219px;
     margin-left: 974px;
+    color: var(--black);
+}
+
+h2 {
+    margin-top: 400px;
+    margin-left: 100px;
+    width: 483px;
+    height: 80px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 125%;
     color: var(--black);
 }
 
@@ -180,15 +197,76 @@ a {
         left: 20px;
         top: 138px;
     }
+
     #jarofoil {
         position: absolute;
-left: 103.4px;
-top: 111.97px;
-width: 70.54px;
-height: 305.75px;
-transform: matrix(0.98, 0.17, -0.17, 0.98, 0, 0);
+        left: 103.4px;
+        top: 111.97px;
+        width: 115px;
+        height: 305.75px;
+    }
+
+    #tomato {
+        position: absolute;
+        width: 122.77px;
+        height: 119.38px;
+        left: 150.56px;
+        top: 288.89px;
+    }
+
+    h1 {
+        width: 280px;
+        height: 40px;
+        margin-left: 50px;
+        margin-top: 330px;
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    h3 {
+        width: 280px;
+        height: 120px;
+        font-size: 16px;
+        margin-left: 20px;
+        margin-top: 8px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    #minus_button {
+        margin-top: 24px;
+        margin-left: 96px;
+    }
+
+    .product_count {
+        padding-left: 25px;
+        padding-top: 24px;
+    }
+
+    #plus_button {
+        margin-top: 24px;
+        margin-left: 25px;
+    }
+
+    .div_butt_buy {
+        width: 280px;
+        height: 48px;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    #second_button_buy {
+        margin-left: 0;
+        margin-top: 24px;
+        padding: 8px 86px;
+    }
+
+    #first_button_buy {
+        margin-top: 24px;
+        margin-bottom: 0;
+        padding: 8px 86px;
     }
 }
-
-/* ДЛЯ компа */
-@media screen and (min-width: 600px) {}
