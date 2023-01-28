@@ -1,0 +1,136 @@
+:root {
+    font-family: 'Roboto';
+    font-size: 62.5%;
+    font-style: normal;
+    font-weight: 500;
+    --whiteandgray: #E5E5E5;
+    --green: #688800;
+    --black: #4A4A4A;
+    color: var(--green);
+    background-color: var(--whiteandgray);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header_urls {
+    display: flex;
+    flex-direction: row;
+    margin-left: 408px;
+    margin-right: 220px;
+
+}
+
+.header_info {
+    padding-right: 88px;
+}
+
+#logo_img {
+    padding-left: 210px;
+}
+
+#small_el {
+    position: absolute;
+    width: 481px;
+    height: 481px;
+    left: 328px;
+    top: 372.53px;
+}
+
+#big_el {
+    position: absolute;
+    width: 557px;
+    height: 557px;
+    left: 290px;
+    top: 334.53px;
+}
+
+#jarofoil {
+    position: absolute;
+    left: 440.2px;
+    top: 226.94px;
+}
+
+#tomato {
+    position: absolute;
+    width: 267px;
+    height: 259px;
+    left: 561.47px;
+    top: 662px;
+}
+
+h1 {
+    width: 483px;
+    height: 80px;
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 125%;
+    margin-top: 219px;
+    margin-left: 974px;
+    color: var(--black);
+}
+
+h3 {
+    margin-top: 32px;
+    margin-left: 970px;
+    width: 613px;
+    height: 48px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+.product_count {
+    width: 14px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 32px;
+    padding-left: 25px;
+    margin: 0;
+}
+
+.count_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.plusminus_count {
+    width: 32px;
+    height: 32px;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    border: 1px solid #949494;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+}
+
+#minus_button {
+    margin-left: 983px;
+    margin-top: 32px;
+}
+
+#plus_button {
+    margin-top: 32px;
+    margin-left: 25px;
+}
+
+.buttons_buying {
+    width: 107px;
+    height: 32px;
+    font-size: 18px;
+    line-height: 32px;
+    border: 1px solid #688800;
+border-radius: 50px;
+padding: 8px 48px;
+}
