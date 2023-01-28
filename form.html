@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Inter:wght@500;600;700&display=swap');
+        .send {
+            display: flex;
+            align-items: center;
+        }
+        p {
+          font-size: 25px;  
+        }
+    </style>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <title>Аббасалиев А.В. 211-325 28.01.2023</title>
+</head>
+
+<body class="wrapper">
+    <header>
+        <img src="/img/logo.svg" alt="">
+    </header>
+    <main>
+        <form class="buying" name="contact" method="POST" action="https://httpbin.org/post">
+            
+                <p>Задание 2</p>
+                <label for="event_name">
+                    <p>Название мероприятия</p>
+                    <input placeholder="Введите название!" name="event" type="text">
+                    <p>Дата</p>
+                    <input name="date" type="datetime-local">
+                </label>
+                <label for="event_date">
+                    <p>Оплата</p>
+                    <input type="radio" name="radio">Наличные <br>
+                    <input type="radio" name="radio">Карта
+                </label>
+            <br> <br>
+            <button class="send" type="submit">Отправить<span class="material-symbols-outlined">
+                done
+                </span></button>
+        </form>
+    </main>
+</body>
+
+</html>
